@@ -11,7 +11,10 @@ def fibonacci(n):
     if n > 1:
         return n + (fibonacci(n - 1))
 
-    if __name__ == "__main__":
-        x = input("Enter number > 1")
-        result = fibonacci(int(x))
-        print(f"factorial of {x} is {result}")
+def lucas(n):
+    """
+    Lucas is the same as Fibonacci, but the starting integers are
+    always 2 and 1
+    """
+    if n == 0:
+        return 2
