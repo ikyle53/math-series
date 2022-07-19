@@ -11,6 +11,7 @@ def fibonacci(n):
     if n > 1:
         return n + (fibonacci(n - 1))
 
+
 def lucas(n):
     """
     Lucas is the same as Fibonacci, but the starting integers are
@@ -18,3 +19,5 @@ def lucas(n):
     """
     if n == 0:
         return 2
+    if n == 1:
+        return 1
