@@ -1,4 +1,5 @@
 from modules.series import fibonacci
+from modules.series import lucas
 
 
 def test_fib_1():
@@ -16,4 +17,10 @@ def test_fib_2():
 def test_fib_any():
     actual = fibonacci(4)
     expected = 10
+    assert actual == expected
+
+
+def test_lucas_0():
+    actual = lucas(0)
+    expected = 2
     assert actual == expected
