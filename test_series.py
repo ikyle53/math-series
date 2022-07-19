@@ -12,3 +12,8 @@ def test_factorial_2():
     expected = 2
     assert actual == expected
 
+
+def test_factorial_any():
+    actual = factorial(4)
+    expected = 24
+    assert actual == expected
