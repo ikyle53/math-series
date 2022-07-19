@@ -1,19 +1,19 @@
-from modules.series import factorial
+from modules.series import fibonacci
 
 
-def test_factorial_1():
-    actual = factorial(1)
+def test_fib_1():
+    actual = fibonacci(1)
     expected = 1
     assert actual == expected
 
 
-def test_factorial_2():
-    actual = factorial(2)
-    expected = 2
+def test_fib_2():
+    actual = fibonacci(2)
+    expected = 3
     assert actual == expected
 
 
-def test_factorial_any():
-    actual = factorial(4)
-    expected = 24
+def test_fib_any():
+    actual = fibonacci(4)
+    expected = 10
     assert actual == expected
