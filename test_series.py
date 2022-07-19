@@ -36,3 +36,7 @@ def test_lucas_any():
     actual = lucas(6)
     expected = 18
     assert actual == expected
+
+
+def sum_func():
+    actual = sum_series()
