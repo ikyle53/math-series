@@ -2,6 +2,8 @@ def factorial(number):
     if number <= 1:
         return 1
 
+    if number > 1:
+        return number * (factorial(number - 1))
 
 # def fizz_buzz():
     # pass
