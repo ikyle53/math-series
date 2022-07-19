@@ -3,8 +3,8 @@
 ## Author: Kyle Honaker  
 
 ### Links and Resources  
-[Fibonacci Sequence](https://byjus.com/maths/fibonacci-sequence/)
-[Lucas/Fibonacci Sequence](https://brilliant.org/wiki/lucas-numbers/)
+[Fibonacci Sequence](https://byjus.com/maths/fibonacci-sequence/)  
+[Lucas/Fibonacci Sequence](https://brilliant.org/wiki/lucas-numbers/)  
 TA - Justin Hammerly
 
 ### Tests
